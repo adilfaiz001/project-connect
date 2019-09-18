@@ -1,0 +1,52 @@
+.liveroom-container-box {
+    height: 300px;
+    position: relative;
+}
+.column-content {
+    height : 292px;
+}
+.live-rooms {
+    height: 288px;
+    overflow-y: scroll;
+    flex-flow: column-reverse !important;
+}
+.liveroom-column {
+    position: relative;
+}
+
+
+.room {
+    list-style-type: none;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0;
+    line-height: 20pt;
+}
+
+.room-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #21ba45;
+    padding: 10px 6px 4px;
+}
+
+.room:hover {
+    background-color: cadetblue;
+    color: blanchedalmond;
+}
+
+.room-icon {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#liveroom-header {
+    color: white;
+    font-family: 'Comfortaa', cursive;;
+    font-size: 1.1rem;
+    letter-spacing: 0.5pt;
+}
+

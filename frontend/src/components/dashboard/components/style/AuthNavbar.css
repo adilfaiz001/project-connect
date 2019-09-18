@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-fixed {
+    height: 50px;
+}

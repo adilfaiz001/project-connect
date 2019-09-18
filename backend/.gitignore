@@ -1,0 +1,3 @@
+node_modules/
+bin/encryption
+mongodb.js
